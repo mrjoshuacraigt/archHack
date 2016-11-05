@@ -7,19 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3C1CD1391DCDAD5A00218FDA /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C1CD1381DCDAD5A00218FDA /* Alamofire.framework */; };
-		3C1CD13B1DCDAD6000218FDA /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C1CD13A1DCDAD6000218FDA /* SwiftyJSON.framework */; };
 		406C897C1DCDA3A5005F42A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406C897B1DCDA3A5005F42A7 /* AppDelegate.swift */; };
 		406C897E1DCDA3A5005F42A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406C897D1DCDA3A5005F42A7 /* ViewController.swift */; };
 		406C89811DCDA3A5005F42A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 406C897F1DCDA3A5005F42A7 /* Main.storyboard */; };
 		406C89841DCDA3A5005F42A7 /* healthHack.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 406C89821DCDA3A5005F42A7 /* healthHack.xcdatamodeld */; };
 		406C89861DCDA3A5005F42A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 406C89851DCDA3A5005F42A7 /* Assets.xcassets */; };
 		406C89891DCDA3A5005F42A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 406C89871DCDA3A5005F42A7 /* LaunchScreen.storyboard */; };
+		406C89931DCDAEF2005F42A7 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 406C89921DCDAEF2005F42A7 /* Alamofire.framework */; };
+		406C89951DCDAF57005F42A7 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 406C89941DCDAF57005F42A7 /* SwiftyJSON.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3C1CD1381DCDAD5A00218FDA /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
-		3C1CD13A1DCDAD6000218FDA /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
 		406C89781DCDA3A5005F42A7 /* healthHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = healthHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		406C897B1DCDA3A5005F42A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		406C897D1DCDA3A5005F42A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +26,8 @@
 		406C89851DCDA3A5005F42A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		406C89881DCDA3A5005F42A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		406C898A1DCDA3A5005F42A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		406C89921DCDAEF2005F42A7 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		406C89941DCDAF57005F42A7 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,8 +35,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C1CD13B1DCDAD6000218FDA /* SwiftyJSON.framework in Frameworks */,
-				3C1CD1391DCDAD5A00218FDA /* Alamofire.framework in Frameworks */,
+				406C89951DCDAF57005F42A7 /* SwiftyJSON.framework in Frameworks */,
+				406C89931DCDAEF2005F42A7 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,8 +48,8 @@
 			children = (
 				406C897A1DCDA3A5005F42A7 /* healthHack */,
 				406C89791DCDA3A5005F42A7 /* Products */,
-				3C1CD1381DCDAD5A00218FDA /* Alamofire.framework */,
-				3C1CD13A1DCDAD6000218FDA /* SwiftyJSON.framework */,
+				406C89941DCDAF57005F42A7 /* SwiftyJSON.framework */,
+				406C89921DCDAEF2005F42A7 /* Alamofire.framework */,
 			);
 			sourceTree = "<group>";
 		};
