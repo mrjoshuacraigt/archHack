@@ -13,6 +13,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let bmiCalculator = BmiCalculator()
+        bmiCalculator.makeBmiRequestion()
+
     }
 
     override func didReceiveMemoryWarning() {

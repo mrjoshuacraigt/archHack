@@ -9,15 +9,11 @@
 /* Begin PBXBuildFile section */
 		3C1CD1391DCDAD5A00218FDA /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C1CD1381DCDAD5A00218FDA /* Alamofire.framework */; };
 		3C1CD13B1DCDAD6000218FDA /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C1CD13A1DCDAD6000218FDA /* SwiftyJSON.framework */; };
-		3C1CD13C1DCDAE0A00218FDA /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C1CD13A1DCDAD6000218FDA /* SwiftyJSON.framework */; };
 		3C1CD13D1DCDAE0A00218FDA /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3C1CD13A1DCDAD6000218FDA /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3C1CD13F1DCDAE0E00218FDA /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C1CD1381DCDAD5A00218FDA /* Alamofire.framework */; };
 		3C1CD1401DCDAE0E00218FDA /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3C1CD1381DCDAD5A00218FDA /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3C3CB7921DCDD2AF00FE6542 /* AlamofireObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C3CB7911DCDD2AF00FE6542 /* AlamofireObjectMapper.framework */; };
 		3C3CB7941DCDD2BA00FE6542 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C3CB7931DCDD2BA00FE6542 /* ObjectMapper.framework */; };
-		3C3CB7951DCDD2C300FE6542 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C3CB7931DCDD2BA00FE6542 /* ObjectMapper.framework */; };
 		3C3CB7961DCDD2C300FE6542 /* ObjectMapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3C3CB7931DCDD2BA00FE6542 /* ObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4054F0EF1DCE1DA30057AE03 /* bmiCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4054F0EE1DCE1DA30057AE03 /* bmiCalculator.swift */; };
+		4054F0EF1DCE1DA30057AE03 /* BmiCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4054F0EE1DCE1DA30057AE03 /* BmiCalculator.swift */; };
 		406C897C1DCDA3A5005F42A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406C897B1DCDA3A5005F42A7 /* AppDelegate.swift */; };
 		406C897E1DCDA3A5005F42A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406C897D1DCDA3A5005F42A7 /* ViewController.swift */; };
 		406C89811DCDA3A5005F42A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 406C897F1DCDA3A5005F42A7 /* Main.storyboard */; };
@@ -45,9 +41,8 @@
 /* Begin PBXFileReference section */
 		3C1CD1381DCDAD5A00218FDA /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		3C1CD13A1DCDAD6000218FDA /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
-		3C3CB7911DCDD2AF00FE6542 /* AlamofireObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireObjectMapper.framework; path = /Users/joshtaylor/archHack/healthHack/Carthage/Build/iOS/AlamofireObjectMapper.framework; sourceTree = "<absolute>"; };
 		3C3CB7931DCDD2BA00FE6542 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
-		4054F0EE1DCE1DA30057AE03 /* bmiCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bmiCalculator.swift; sourceTree = "<group>"; };
+		4054F0EE1DCE1DA30057AE03 /* BmiCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BmiCalculator.swift; sourceTree = "<group>"; };
 		406C89781DCDA3A5005F42A7 /* healthHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = healthHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		406C897B1DCDA3A5005F42A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		406C897D1DCDA3A5005F42A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,10 +61,6 @@
 				3C3CB7941DCDD2BA00FE6542 /* ObjectMapper.framework in Frameworks */,
 				3C1CD13B1DCDAD6000218FDA /* SwiftyJSON.framework in Frameworks */,
 				3C1CD1391DCDAD5A00218FDA /* Alamofire.framework in Frameworks */,
-				3C1CD13C1DCDAE0A00218FDA /* SwiftyJSON.framework in Frameworks */,
-				3C3CB7921DCDD2AF00FE6542 /* AlamofireObjectMapper.framework in Frameworks */,
-				3C1CD13F1DCDAE0E00218FDA /* Alamofire.framework in Frameworks */,
-				3C3CB7951DCDD2C300FE6542 /* ObjectMapper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,7 +96,7 @@
 				406C89871DCDA3A5005F42A7 /* LaunchScreen.storyboard */,
 				406C898A1DCDA3A5005F42A7 /* Info.plist */,
 				406C89821DCDA3A5005F42A7 /* healthHack.xcdatamodeld */,
-				4054F0EE1DCE1DA30057AE03 /* bmiCalculator.swift */,
+				4054F0EE1DCE1DA30057AE03 /* BmiCalculator.swift */,
 			);
 			path = healthHack;
 			sourceTree = "<group>";
@@ -183,7 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4054F0EF1DCE1DA30057AE03 /* bmiCalculator.swift in Sources */,
+				4054F0EF1DCE1DA30057AE03 /* BmiCalculator.swift in Sources */,
 				406C89841DCDA3A5005F42A7 /* healthHack.xcdatamodeld in Sources */,
 				406C897E1DCDA3A5005F42A7 /* ViewController.swift in Sources */,
 				406C897C1DCDA3A5005F42A7 /* AppDelegate.swift in Sources */,
