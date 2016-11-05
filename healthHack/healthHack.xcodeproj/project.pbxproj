@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C1CD1391DCDAD5A00218FDA /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C1CD1381DCDAD5A00218FDA /* Alamofire.framework */; };
+		3C1CD13B1DCDAD6000218FDA /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C1CD13A1DCDAD6000218FDA /* SwiftyJSON.framework */; };
 		406C897C1DCDA3A5005F42A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406C897B1DCDA3A5005F42A7 /* AppDelegate.swift */; };
 		406C897E1DCDA3A5005F42A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406C897D1DCDA3A5005F42A7 /* ViewController.swift */; };
 		406C89811DCDA3A5005F42A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 406C897F1DCDA3A5005F42A7 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C1CD1381DCDAD5A00218FDA /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		3C1CD13A1DCDAD6000218FDA /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
 		406C89781DCDA3A5005F42A7 /* healthHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = healthHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		406C897B1DCDA3A5005F42A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		406C897D1DCDA3A5005F42A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,6 +35,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C1CD13B1DCDAD6000218FDA /* SwiftyJSON.framework in Frameworks */,
+				3C1CD1391DCDAD5A00218FDA /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +48,8 @@
 			children = (
 				406C897A1DCDA3A5005F42A7 /* healthHack */,
 				406C89791DCDA3A5005F42A7 /* Products */,
+				3C1CD1381DCDAD5A00218FDA /* Alamofire.framework */,
+				3C1CD13A1DCDAD6000218FDA /* SwiftyJSON.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -264,6 +272,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PHFDP4SB5Y;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = healthHack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = archHack.healthHack;
@@ -277,6 +289,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PHFDP4SB5Y;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = healthHack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = archHack.healthHack;
@@ -304,6 +320,7 @@
 				406C898F1DCDA3A5005F42A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
