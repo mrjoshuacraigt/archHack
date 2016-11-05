@@ -33,7 +33,8 @@ class BmiCalculator {
 
             "X-Mashape-Key": "4qmTJxxjDCmshHD00ovTWDsubDL6p1eAG1Jjsnn3cwmILniPOI",
             "Content-Type": "application/json",
-            "Accept": "application/json"
+            "Accept": "application/json",
+
 
     ]
 
@@ -44,7 +45,10 @@ class BmiCalculator {
             response in debugPrint(response)
         }
         
-        
+        Alamofire.request(.POST, mashapeKey, parameters: parameters, headers: headers).responseJSON() {
+            
+            (req, res, data, error) in
+        }
 
 
     }
