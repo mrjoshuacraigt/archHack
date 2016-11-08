@@ -2,11 +2,11 @@
 <module type="CIDR_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/healthHack/BmiCalculator.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/healthHack/AppDelegate.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/healthHack/ViewController.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/healthHack/BmiCalculator.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/healthHack/Assets.xcassets" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/healthHack/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/healthHack/Assets.xcassets" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/healthHack/Base.lproj/LaunchScreen.storyboard" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/healthHack/Base.lproj/Main.storyboard" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/healthHack/healthHack.xcdatamodeld/healthHack.xcdatamodel" isTestSource="false" />
